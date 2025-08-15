@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Algreya Sans";
+    line-height: 1.8;
+}
+/* ---------------------------------- */
+#navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#navbar .logo{
+    padding: 20px;
+}
+#navbar .logo img{
+    width: 40%;
+}
+
+#navbar .links ul{
+    display: flex;
+    list-style: none;
+}
+#navbar .links ul li{
+    padding: 20px;
+}
+#navbar .links ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+/* --------------------------------- */
+#Header{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    overflow: hidden;
+}
+
+#Header .caption{
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+
+#Header .caption span{
+    font-size: 22px;
+}
+
+#Header .caption h1{
+    font-size: 60px;
+    font-family: "Algreya";
+    margin: 20px 0;
+}
+
+#Header .caption p{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#Header .caption .bt{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+#Header .caption .bt1{
+    background-color: #8e7754;
+    border: 2px solid #8e7754;
+}
+#Header .caption .bt2{
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+#header .caption .bt:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* -----------------------------*/
+
+#we{
+    overflow: hidden;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#we .image{
+    width: 50%;
+    float: left;
+    
+}
+#we .image img{
+    width: 100%;
+    margin: 30px auto;
+}
+
+#we .content{
+    width: 50%;
+    float: left;
+    padding: 0 30px;
+}
+#we .content p{
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 5px;
+}
+#we .content h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    font-family: "Algreya";
+}
+#we .content .list-item {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#we .content .list-item img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#we .content .list-item p {
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-top: 5px;
+}
+
+/* ----------------------------------- */
+
+#location{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#location .image{
+    width: 40%;
+    float: right;
+    width: 40%;
+}
+#location .image img{
+    width: 100%;
+    margin: 30px auto;
+}
+
+#location .content{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+#location .content h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    font-family: "Algreya";
+}
+#location .content p{
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 5px;
+}
+
+/* ---------------------------------- */
+
+#items{
+    text-align: center;
+}
+#items .head{
+    margin: 50px;
+}
+#items .head h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: "Algreya";
+}
+#items p{
+    color: #888;
+    margin: 10px;
+}
+#items img{
+    width: 100%;
+    height: auto;
+}
+#items .block{
+    display: inline-block;
+    width: 24%;
+    margin: 0 1%;
+}
+#items .block h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* ---------------------------------------- */
+
+#contact{
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#contact .content{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+#contact .content h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: "Algreya";
+}
+#contact .content p{
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 5px;
+}
+
+#contact .content .list-item {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#contact .content .list-item img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+#contact .content .list-item p {
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-top: 5px;
+}
+
+#contact .map{
+    width: 50%;
+    float: right;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* -------------------------------------- */
+
+#us{
+    background-color: #403D38;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#us h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#us p{
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 10px;
+}
+
+#us .sec1,
+#us .sec2,
+#us .sec3,
+#us .sec4 {
+    width: 20%;
+    margin: 3%;
+}
+
+#us .list-item {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#us .list-item img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#us .list-item p {
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-top: 5px;
+    border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+#us .list-item a {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
+#us .list-item a:hover {
+    color: rgb(201, 188, 188);
+    text-decoration: none;
+}
+
+/* ----------------------------------- */
+
+#footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 20px 0;
+}
+#footer p {
+    margin: 15px;
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+}
+
+#footer a {
+    text-decoration: none;
+}
+#footer a img{
+    width: 50px;
+    margin: 0 10px;
+    background-color: #524c44;
+    border-radius: 50px;
+}
+#footer a img:hover {
+    background-color: #27187e;
+    cursor: pointer;
+}
